@@ -5,7 +5,7 @@ const cockpit = (props) => {
   useEffect(() => {
     console.log('[Cockpit.js] UseEffect!');
     setTimeout(() => {
-      alert('Sacuvaj podatke u oblak!')
+      alert('Data is awesome!')
     }, 1000);
     return () => { console.log('[Cockpit.js] cleanup work in useEffect!') }
   }, []);
